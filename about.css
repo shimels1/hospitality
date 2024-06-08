@@ -4,27 +4,74 @@
   color: #fbf6f6;
   margin-top: 109px;
   padding: 0;
-  background-image: url("../images/services.png");
+  background-image: url("../images/about-us.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.about-discription-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.story-head {
+  color: #605e5e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin-top: 105px;
+  font-weight: 500;
+}
+
+iframe {
+  margin-top: 29px;
+  width: 855px;
+  height: 484px;
+}
 
 .about-title {
-  font-family: wfont_981baa_e5534453a2794080b02926a4c6883817,
-    wf_e5534453a2794080b02926a4c, orig_lato_bold;
+  color: #605e5e;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-  letter-spacing: 0.0666667em;
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  font-stretch: 100%;
+  margin-top: 124px;
+}
+
+.about-discription {
+  font-family: lato-light, lato, sans-serif;
   background: transparent;
   border: 0;
   margin: 0;
   outline: 0;
   padding: 0;
   vertical-align: baseline;
-  font-style: normal;
+  font-size: 15px;
   color: #605e5e;
-  line-height: 0.7em;
-  text-align: center;
+  overflow-wrap: break-word;
+  pointer-events: none;
+  text-align: start;
+  word-wrap: break-word;
+  text-size-adjust: 100%;
+  width: 818px;
+  /* margin-bottom: 20px; */
+  line-height: 23px;
 }
 
-.about-discription {
+.map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.map iframe {
+  width: 100%;
+  margin-top: 58px;
+}
+
+footer {
+  margin-top: 0;
 }

@@ -177,6 +177,10 @@
   height: 382px;
 }
 
+.approach-list-container img {
+  width: 165px;
+  height: 165px;
+}
 .approach-list-card {
   display: flex;
   flex-direction: column;
@@ -185,10 +189,10 @@
   width: 100%;
   height: 382px;
   background-color: #808080;
+  /* margin-bottom: 50px; */
 }
 .approach-list-card span {
-  font-family: wfont_981baa_00f36533b37a43b1ae608f9899dfd213,
-    wf_00f36533b37a43b1ae608f989, orig_lato_regular;
+  font-family: Arial, Helvetica, sans-serif;
   background: transparent;
   border: 0;
   margin: 0;
