@@ -1,0 +1,30 @@
+.banner {
+  height: 421px;
+  font-size: 20px;
+  color: #fbf6f6;
+  margin-top: 109px;
+  padding: 0;
+  background-image: url("../images/services.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.about-title {
+  font-family: wfont_981baa_e5534453a2794080b02926a4c6883817,
+    wf_e5534453a2794080b02926a4c, orig_lato_bold;
+  font-size: 24px;
+  letter-spacing: 0.0666667em;
+  background: transparent;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  font-style: normal;
+  color: #605e5e;
+  line-height: 0.7em;
+  text-align: center;
+}
+
+.about-discription {
+}
