@@ -180,7 +180,15 @@ ul li {
   background: black;
   color: white;
 }
-
+.header-text {
+  font-size: 95px;
+  letter-spacing: 0.06em;
+}
+.header-text-discription {
+  padding-top: 14px;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
 /* home-about-section */
 
 .home-about-section {
@@ -293,6 +301,85 @@ iframe {
 .service-section-container a {
   padding: 15px 30px;
 }
+
+/* why-section */
+
+.why-section {
+  background: #a0a0a0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 616px;
+  padding-top: 3.3px;
+  /* border: 1px solid red; */
+}
+
+.why-section-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+}
+.why-section-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.why-section-container p {
+  font-size: 18px;
+  width: 279px;
+}
+
+.why-section-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 55px;
+}
+.why-section-left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.why-section-left-section div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.why-section-left-section img {
+  width: 89px;
+  height: 89px;
+}
+.why-section-right-section img {
+  width: 89px;
+  height: 89px;
+}
+.why-section-right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.why-section-right-section div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+/* end why-section */
+
 /* catagory section */
 .catagory {
   display: flex;
@@ -349,6 +436,149 @@ iframe {
   background-color: rgba(54, 51, 51, 0.5);
 }
 
+/* images-slid */
+.careers-container {
+  height: 500px;
+  font-size: 20px;
+  color: #fbf6f6;
+  padding: 0;
+  background-image: url("../images/careers.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.careers-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(54, 51, 51, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.careers-container span {
+  font-size: 72px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+}
+.careers-container a {
+  padding: 12px 20px;
+}
+.careers-container p {
+  text-align: center;
+  font-size: 28px;
+  padding: 0;
+  margin: 0;
+}
+.careers-container button {
+  margin: 0;
+  padding: 0;
+}
+
+.careers-container a:hover {
+  color: white;
+  background: #a0a09f;
+}
+.images-slid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.images-slid img {
+  /* margin-top: 15px; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+/* endimages-slid */
+
+/* Q&A */
+
+.faqs-section {
+  background: #a0a0a0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  min-height: 616px;
+  padding-top: 3.3px;
+}
+.faqs-section h2 {
+  font-size: 20px;
+}
+.faqs-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.2em;
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+}
+.faqs-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.faqs-accordion-container {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+.accordion {
+  /* background-color: #eee; */
+  /* color: #444; */
+  background: #a0a0a0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+  /* padding: 18px; */
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  direction: ltr;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 0;
+}
+.active,
+.accordion:hover {
+  /* background-color: #ccc; */
+}
+
+.panel {
+  padding: 0;
+  display: none;
+  /* background-color: white; */
+  overflow: hidden;
+  background: #a0a0a0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+  font-size: 20px;
+}
+
+.faqs-btn {
+  padding: 12px 23px;
+  align-items: center;
+}
+.faqs-btn:hover {
+  background-color: #808080;
+  color: white;
+}
+.faqs-btn-contener {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 /* footer */
 
 footer {
