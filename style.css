@@ -602,3 +602,6 @@ footer {
 footer span {
   text-decoration: underline;
 }
+footer {
+  margin-top: 0;
+}
