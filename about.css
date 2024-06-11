@@ -72,6 +72,38 @@ iframe {
   margin-top: 58px;
 }
 
+.catagory-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.catagory-btn {
+  text-decoration: none;
+  height: 40px;
+  width: 162px;
+  color: #ffffff;
+  font-family: din-next-w01-light, din-next-w02-light, din-next-w10-light,
+    sans-serif;
+  font-size: 14px;
+  background: #808080;
+  margin-top: 22px;
+  height: 40px;
+  font-weight: normal;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.catagory-btn:hover {
+  background: #a0a09f;
+}
+
 footer {
   margin-top: 0;
 }

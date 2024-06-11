@@ -1,0 +1,105 @@
+.banner {
+  height: 253px;
+  font-size: 20px;
+  color: #fbf6f6;
+  margin-top: 109px;
+  padding: 0;
+  background-image: url("../images/contactus.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.about-discription-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.story-head {
+  color: #605e5e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin-top: 105px;
+  font-weight: 500;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+}
+.about-us-discription {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #5f6368;
+}
+.about-us-discription div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #5f6368;
+  margin-top: 35px;
+  margin-left: 50px;
+}
+.about-us-discription h3 {
+  font-size: 24px;
+  letter-spacing: 0.25em;
+  font-weight: bold;
+  font-family: lato-light, lato, sans-serif;
+  margin: 0;
+}
+.send-message-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.send-message-container h3 {
+  font-size: 19px;
+  letter-spacing: 0.25em;
+  font-family: lato-light, lato, sans-serif;
+  color: #000000;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 500px;
+}
+.row input {
+  border: none;
+  width: 215px;
+  height: 27.8px;
+  border-bottom: gray 1px solid;
+}
+.row div {
+  width: 100%;
+}
+.row p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+.row textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 500px;
+  height: 70px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}

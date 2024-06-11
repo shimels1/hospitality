@@ -4,8 +4,6 @@ body {
   padding: 0;
   color: grey;
   font-family: Arial, Helvetica, sans-serif;
-  /* background-color: #2f2e2e; */
-
   height: 100%;
   background-color: white;
 }
@@ -22,7 +20,7 @@ header {
   right: 0;
   top: 0;
   border-bottom: 1px solid gray;
-  z-index: 5;
+  z-index: 1000;
   /* background-color: #2f2e2e; */
 }
 
@@ -103,7 +101,7 @@ ul li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(54, 51, 51, 0.5);
+  background-color: rgba(54, 51, 51, 0.4);
   width: 100%;
   height: 100%;
 }
@@ -113,10 +111,6 @@ ul li {
   color: #fbf6f6;
   margin-top: 109px;
   padding: 0;
-
-  /* background-image: url("../images/home-baner.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%; */
 }
 
 .home-banner img {
@@ -233,7 +227,6 @@ ul li {
   border: 1px solid black;
   font-size: 14px;
   letter-spacing: 0.15em;
-  font-style: normal;
 }
 .about-us-button:hover {
   background: black;
@@ -568,6 +561,7 @@ iframe {
 .faqs-btn {
   padding: 12px 23px;
   align-items: center;
+  margin-bottom: 10px;
 }
 .faqs-btn:hover {
   color: white;
@@ -583,39 +577,52 @@ iframe {
 /* menu-section */
 .menu-section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 50px;
+  gap: 5px;
 }
 .menu-section-item {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  /* gap: 5px; */
+  border: 1px gray solid;
   margin-bottom: 5px;
-}
-.menu-section-item p {
-  position: absolute;
-  border: 1px solid black;
-  /* top: 52.2%;
-  left: 16.7%; */
-  transform: translate(-50%, -50%);
-  background-color: #a0a09f;
-  /* padding: 20px; */
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
-.menu-section img {
   width: 232px;
   height: 231px;
-  border: 1px solid green;
+  z-index: 5;
+}
+.menu-section-item div:hover {
+  background-color: rgba(54, 51, 51, 0.5);
+}
 
-  object-fit: cover;
-  object-position: 50% 50%;
+.menu-section-item:hover {
+  background-color: rgba(54, 51, 51, 0.5);
+}
+.menu-section-item img {
+  position: absolute;
+  z-index: 0;
+  width: 232px;
+  height: 231px;
+}
+
+.menu-section h3 {
+  color: white;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* display: hide; */
+}
+.menu-section-item h3:hover {
+  background-color: rgba(54, 51, 51, 0.5);
+  cursor: pointer;
 }
 /* endmenu-section */
 /* footer */
