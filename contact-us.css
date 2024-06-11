@@ -95,11 +95,27 @@
 .row textarea {
   border: none;
   border-bottom: 1px solid gray;
-  width: 500px;
-  height: 70px;
+  width: 470px;
+  max-width: 490px;
+  height: 90px;
+  resize: none;
 }
 
 textarea:focus,
 input:focus {
   outline: none;
+}
+
+.submit-contactus-btn {
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 25px;
+  margin-right: 0px;
+  padding: 0;
+  /* font-size: ; */
+}
+
+.submit-contactus-btn:hover {
+  color: #6d89bc;
 }
